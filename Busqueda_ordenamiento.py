@@ -2,7 +2,7 @@ import random
 import time
 ########### ALGORITMOS DE BUSQUEDA ###########
 
-legajos = random.sample(range(1000,1000000), 100)
+legajos = random.sample(range(1000,1000000), 50000)
 
 def busqueda_binaria(lista,objetivo):
     inicio = 0
@@ -72,11 +72,18 @@ fin_orden = time.time()
 print("Legajos ordenados:", legajos)
 print(f"Tiempo de bubble_sort: {fin_orden - inicio_orden:.6f} segundos")
 
+# TIEMPO SELECTION
+inicio_orden = time.time()
+selection_sort(legajos)
+fin_orden = time.time()
+print("Legajos ordenados:", legajos)
+print(f"Tiempo de selection: {fin_orden - inicio_orden:.6f} segundos")
+
 # LEGAJO AL AZAR
 objetivo = random.choice(legajos)
 print(f"Buscando el legajo: {objetivo}")
 
-# MOSTRAR LEGAJO ORIGINAL
+# MOSTRAR TIME BUSQUEDA LINEAL
 inicio_lineal = time.time()
 resultado_lineal = busqueda_lineal(legajos, objetivo)
 fin_lineal = time.time()
@@ -86,6 +93,12 @@ print(f"Búsqueda Lineal: Resultado = {resultado_lineal}, Tiempo = {tiempo_linea
 # MOSTRAR TIME BUSQUEDA BINARIA
 inicio_binaria = time.time()
 resultado_binaria = busqueda_binaria(legajos, objetivo)
+fin_binaria = time.time()
+tiempo_binaria = fin_binaria - inicio_binaria
+print(f"Búsqueda Binaria: Resultado = {resultado_binaria}, Tiempo = {tiempo_binaria:.6f} segundos")
+
+inicio_binaria = time.time()
+resultado_binaria = busqueda_binaria_recursiva(legajos, objetivo)
 fin_binaria = time.time()
 tiempo_binaria = fin_binaria - inicio_binaria
 print(f"Búsqueda Binaria: Resultado = {resultado_binaria}, Tiempo = {tiempo_binaria:.6f} segundos")
