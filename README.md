@@ -33,6 +33,8 @@ Este proyecto explora cómo localizar elementos rápidamente dentro de estructur
 - Bibliotecas: `ramdom`, `time`, entre otras.
 
 ### 📹 Video de YouTube
-🔗 Ver el video en YouTube
+
+[![Ver el video en YouTube](https://img.youtube.com/vi/XsVyGTxWFYA/0.jpg)](https://youtu.be/XsVyGTxWFYA)
+
 
 
