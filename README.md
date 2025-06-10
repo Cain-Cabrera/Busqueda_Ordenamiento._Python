@@ -32,6 +32,7 @@ Este proyecto explora cómo localizar elementos rápidamente dentro de estructur
 - Visual Studio Code  
 - Bibliotecas: `ramdom`, `time`, entre otras.
 
- ### 📹 Vide de Youtube
+### 📹 Video de YouTube
+🔗 Ver el video en YouTube
 
-🔗 [Ver el video en YouTube](https://youtu.be/xpYTF8-2BFY)
+
