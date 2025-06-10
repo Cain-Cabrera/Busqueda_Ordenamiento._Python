@@ -1,4 +1,4 @@
-- **Título del trabajo:** *Algoritmos de Búsqueda y Ordenamiento en Python*  
+## 🧠 Algoritmos de Búsqueda y Ordenamiento en Python
 - **Alumnos:**  
   - Cain Cabrera – [caincito.cabrera7@gmail.com](mailto:caincito.cabrera7@gmail.com)  
   - Enzo Chavez – [enzoachavez@gmail.com](mailto:enzoachavez@gmail.com)  
@@ -30,7 +30,7 @@ Este proyecto explora cómo localizar elementos rápidamente dentro de estructur
 
 - Python 3.x  
 - Visual Studio Code  
-- Bibliotecas: `matplotlib`, `time`, entre otras.
+- Bibliotecas: `ramdom`, `time`, entre otras.
 
  ### 📹 Vide de Youtube
 
