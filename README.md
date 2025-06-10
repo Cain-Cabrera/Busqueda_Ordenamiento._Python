@@ -31,3 +31,7 @@ Este proyecto explora cómo localizar elementos rápidamente dentro de estructur
 - Python 3.x  
 - Visual Studio Code  
 - Bibliotecas: `matplotlib`, `time`, entre otras.
+
+ ### 📹 Vide de Youtube
+
+🔗 [Ver el video en YouTube](https://youtu.be/xpYTF8-2BFY)
